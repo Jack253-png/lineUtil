@@ -21,6 +21,7 @@ public class Main {
         List<String> arguments = Arrays.asList(args);
         if (arguments.size() <= 1) {
             System.out.println("Usage: java -jar lineUtil.jar D:\\projects\\lineUtil;D:\\projects\\fxui3 .*.java;.*.cpp;.*.h");
+            System.exit(0);
         }
 
         Vector<File> files = new Vector<>();
